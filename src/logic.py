@@ -34,7 +34,7 @@ def handle_faulty_response(response: requests.Response):
         raise APIException("Unknown issue arose while trying to access the API.", response)
 
 def get_sports(key: str) -> set[str]:
-    # Gets all the sports using the endpoint https://api.the-odds-api.com/v4/sports/?apiKey=d0c35850ad599c3289ea986408c807d7
+    # Gets all the sports using the endpoint https://api.the-odds-api.com/v4/sports/?apiKey
     # Loops through the array and fetches eachb items[key] = sport
     # [
     #   {"key":"americanfootball_cfl","group":"American Football","title":"CFL","description":"Canadian Football League","active":true,"has_outrights":false},
