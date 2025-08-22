@@ -1,4 +1,4 @@
-# Arbitrage Finder
+# Arbitrage In Online Gaming
 A simple tool to find sports betting arbitrage opportunities.
 
 The tool fetches the odds from [The Odds API](https://the-odds-api.com/) and compares the odds at different bookmakers to each other in order to determine whether there are profitable and risk-free bets available.
